@@ -10,12 +10,12 @@ import { setLogConfig } from '../../config/logconfig.js';
 
 const logger = createLogger(setLogConfig('secure.controller.js'));
 
-export function registerToken (req, res) {
+export function registerToken(req, res) {
     logger.info("registerToken called...");
 
     try {
         const payload = {
-            name: "obc",
+            name: "certiify",
         };
         sign(
             payload,
@@ -29,11 +29,11 @@ export function registerToken (req, res) {
                     message: "Authentication successful!",
                     token: token,
                 };
-                ok(value, res)
+                // console.log(value);
+                ok(value, res);
             }
         );
-    } catch ( err ) {
+    } catch (err) {
         fail("Error: " + err.toString());
     }
 }
-

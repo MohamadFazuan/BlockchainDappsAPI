@@ -10,7 +10,8 @@ export async function VerifyToken(token) {
     if (token != null) {
         if (token.startsWith('CERTIFY ')) {
             // Remove Bearer from string
-            token = token.slice(4, token.length);
+            token = token.slice(8, token.length);
+            console.log('Token',token);
         }
     } else {
         return false;
@@ -19,10 +20,10 @@ export async function VerifyToken(token) {
     if (token) {
         try {
             let decode = jwt_decode(token);
-            console.log(decode);
+            console.log('Decode',decode);
 
             if (decode.name == 'certiify') {
-                result = await verify(token, secretOrKey);
+                result = verify(token, secretOrKey);
                 return result;
             }  else {
                 return false;

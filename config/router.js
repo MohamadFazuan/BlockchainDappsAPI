@@ -16,6 +16,7 @@ export function setRouterConfig() {
     router.use(async function (req, res, next) {
         let token = req.header('authorization');
         let condition = await VerifyToken(token);
+        console.log(condition);
         if (condition == false) {
             logger.error(ERR0022);
             let a = {

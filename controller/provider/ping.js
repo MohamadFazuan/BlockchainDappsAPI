@@ -1,4 +1,4 @@
-var hoststhors = process.env.THORS_URL;
+var hoststhors = process.env.THORS_URL.split(",");
 import pkg_request from 'request';
 const { post } = pkg_request;
 import pkg_axios from 'axios';
@@ -17,6 +17,7 @@ export async function thorsHealth(req, res) {
   return new Promise( async (resolve) => {
     do {
       hostname = hoststhors[countThors];
+      console.log(hostname);
       reachable =  await isreach(hostname);
       if (reachable === true) {
         try {
