@@ -83,3 +83,7 @@
 31-03-2023 22:45:29 - thorshammer.nontransaction.js:[info]: web3.*.net.getPeerCount requested
 31-03-2023 22:56:28 - thorshammer.nontransaction.js:[info]: web3.*.net.getPeerCount requested
 31-03-2023 22:56:38 - thorshammer.nontransaction.js:[info]: web3.*.net.getPeerCount requested
+31-03-2023 23:00:41 - thorshammer.nontransaction.js:[info]: web3.*.net.getPeerCount requested
+31-03-2023 23:00:41 - resformat.js:[info]: Responding... : {"status":200,"values":1}
+31-03-2023 23:00:57 - thorshammer.nontransaction.js:[info]: web3.eth.getBlockNumber requested
+31-03-2023 23:00:58 - resformat.js:[info]: Responding... : {"status":200,"values":210302}
