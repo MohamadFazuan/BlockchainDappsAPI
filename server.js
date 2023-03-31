@@ -49,10 +49,10 @@ app.use("/api/v2/", toolsRoutes);
 app.use("/api/v2/thorshammer/", thorsRoutes);
 
 // Logger if any interrupt/exit occur
-// const startGracefulShutdown = (err) => {
-//   logger.error(err.toString());
-//   upload();
-// };
+const startGracefulShutdown = (err) => {
+  logger.error(err.toString());
+  // upload();
+};
 
 // // Cron
 // const job = new CronJob("0 0 * * *", function () {
