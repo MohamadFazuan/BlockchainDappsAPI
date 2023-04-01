@@ -17,7 +17,6 @@ export async function thorsHealth(req, res) {
   return new Promise( async (resolve) => {
     do {
       hostname = hoststhors[countThors];
-      console.log(hostname);
       reachable =  await isreach(hostname);
       if (reachable === true) {
         try {

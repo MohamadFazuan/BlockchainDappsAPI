@@ -5,6 +5,7 @@ const { createLogger } = pkg_winston;
 import { fail } from "../config/resformat.js";
 import { setLogConfig } from "../config/logconfig.js";
 import { setRouterConfig } from "../config/router.js";
+import * as redis from "redis";
 
 const logger = createLogger(setLogConfig("thorshammer.routes.js"));
 

@@ -87,3 +87,43 @@
 31-03-2023 23:00:41 - resformat.js:[info]: Responding... : {"status":200,"values":1}
 31-03-2023 23:00:57 - thorshammer.nontransaction.js:[info]: web3.eth.getBlockNumber requested
 31-03-2023 23:00:58 - resformat.js:[info]: Responding... : {"status":200,"values":210302}
+01-04-2023 08:06:19 - thorshammer.nontransaction.js:[info]: web3.eth.getBlockNumber requested
+01-04-2023 08:06:21 - resformat.js:[info]: Responding... : {"status":200,"values":212484}
+01-04-2023 08:06:35 - secure.controller.js:[info]: registerToken called...
+01-04-2023 08:06:35 - resformat.js:[info]: Responding... : {"status":200,"values":{"success":true,"message":"Authentication successful!","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiY2VydGlpZnkiLCJpYXQiOjE2ODAzMDc1OTV9.Q4buQsBwnce7wZlZ1ou1Uf7FrmvwzWjf0TB2-RQRk-I"}}
+01-04-2023 08:14:14 - secure.controller.js:[info]: registerToken called...
+01-04-2023 08:14:14 - resformat.js:[info]: Responding... : {"status":200,"values":{"success":true,"message":"Authentication successful!","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiY2VydGlpZnkiLCJpYXQiOjE2ODAzMDgwNTR9.1o_iHntSbVKg3ch5GxS-LHVaxm64FwLwQoDtJGZFumE"}}
+01-04-2023 11:01:01 - thorshammer.nontransaction.js:[info]: web3.eth.getBlockNumber requested
+01-04-2023 11:01:01 - resformat.js:[info]: Responding... : {"status":200,"values":213182}
+01-04-2023 11:02:02 - thorshammer.nontransaction.js:[info]: web3.eth.getBlockNumber requested
+01-04-2023 11:02:02 - resformat.js:[info]: Responding... : {"status":200,"values":213186}
+01-04-2023 12:43:00 - server.js:[error]: Error: The client is closed
+01-04-2023 12:44:27 - thorshammer.nontransaction.js:[info]: web3.eth.getBlockNumber requested
+01-04-2023 12:44:28 - resformat.js:[info]: Responding... : {"status":200,"values":213596}
+01-04-2023 12:44:54 - server.js:[error]: Error: The client is closed
+01-04-2023 12:49:31 - server.js:[error]: TypeError: Invalid argument type
+01-04-2023 12:49:54 - server.js:[error]: TypeError: Invalid argument type
+01-04-2023 12:50:31 - server.js:[error]: TypeError: Invalid argument type
+01-04-2023 13:21:54 - server.js:[error]: TypeError: Invalid argument type
+01-04-2023 14:02:24 - thorshammer.nontransaction.js:[info]: web3.eth.getBlockNumber requested
+01-04-2023 14:02:24 - resformat.js:[info]: Responding... : {"status":200,"values":213908}
+01-04-2023 21:30:32 - thorshammer.nontransaction.js:[info]: web3.eth.getBlockNumber requested
+01-04-2023 21:30:32 - resformat.js:[info]: Responding... : {"status":200,"values":215700}
+01-04-2023 21:30:58 - thorshammer.nontransaction.js:[info]: web3.eth.getBlockNumber requested
+01-04-2023 21:30:59 - resformat.js:[info]: Responding... : {"status":200,"values":215702}
+01-04-2023 21:31:08 - secure.controller.js:[info]: registerToken called...
+01-04-2023 21:31:08 - resformat.js:[info]: Responding... : {"status":200,"values":{"success":true,"message":"Authentication successful!","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiY2VydGlpZnkiLCJpYXQiOjE2ODAzNTU4Njh9.zTgld4Bwg33yZgOpP9UY7ia6MHp6-hF-KDq0QAxXvFw"}}
+01-04-2023 21:32:33 - router.js:[error]: Token Error - Token Expired. Please update your token
+01-04-2023 21:32:33 - resformat.js:[info]: Responding... : {"status":400,"error":"Token Error - Token Expired. Please update your token"}
+01-04-2023 21:33:41 - router.js:[error]: Token Error - Token Expired. Please update your token
+01-04-2023 21:33:41 - resformat.js:[info]: Responding... : {"status":400,"error":"Token Error - Token Expired. Please update your token"}
+01-04-2023 21:33:52 - thorshammer.transaction.js:[info]: getTransactionReceipt called
+01-04-2023 21:33:52 - resformat.js:[info]: Responding... : {"status":200,"values":null}
+01-04-2023 21:35:54 - server.js:[error]: TypeError: S3.putObject is not a function
+01-04-2023 21:45:24 - thorshammer.transaction.js:[info]: getTransactionReceipt called
+01-04-2023 21:45:24 - resformat.js:[info]: Responding... : {"status":200,"values":null}
+01-04-2023 21:49:53 - server.js:[error]: TypeError: command.resolveMiddleware is not a function
+01-04-2023 22:32:25 - thorshammer.transaction.js:[info]: getTransactionReceipt called
+01-04-2023 22:32:25 - resformat.js:[info]: Responding... : {"status":200,"values":null}
+01-04-2023 22:38:55 - thorshammer.transaction.js:[info]: getTransactionReceipt called
+01-04-2023 22:38:55 - resformat.js:[info]: Responding... : {"status":200,"values":null}
